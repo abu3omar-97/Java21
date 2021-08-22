@@ -1,0 +1,5 @@
+        String post = "Test post ... ";
+        System.out.println(post.toUpperCase().contains("test".toUpperCase()));
+        // post.toUpperCase() = "TEST POST ... "
+        // "TEST POST ... ".contains("TEST")
+

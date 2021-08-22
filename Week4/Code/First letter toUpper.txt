@@ -1,0 +1,21 @@
+        System.out.println("PLEASE ENTER YOUR NAME:");
+        String name = input.nextLine();
+        String firstLetter = name.charAt(0) + "";
+
+        System.out.println(firstLetter.toUpperCase());
+
+------------------------------------------------------
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("PLEASE ENTER YOUR NAME:");
+        String name = input.nextLine();
+        String firstLetter = name.charAt(0) + "";
+        String firstLetterCaps = firstLetter.toUpperCase();
+	
+	// "ahmad" -> "Ahmad"
+        // "farah" -> "Farah"
+
+        String newFormatName = name.replaceFirst(name.charAt(0)+"" , firstLetterCaps );
+        System.out.println(newFormatName);
+
+	//         System.out.println("ahmad".substring(0,1).toUpperCase() + "ahmad".substring(1));

@@ -1,0 +1,16 @@
+
+
+        String post1 = "Hello guys, I just bought a new laptop";
+        String post2 = "I love dell";
+        String post3 = "How can I fix my lenovo?";
+        String post4 = "BMW are faster than Audi's";
+
+        String post = post4;
+
+        boolean isIntrestedInCars , isIntrestedInLaptops;
+
+        isIntrestedInCars = post.toLowerCase().contains("cars") || post.contains("bmw") || post.contains("mercedes") || post.contains("engine");
+        isIntrestedInLaptops = post.contains("laptop") || post.contains("pc") || post.contains("gaming") || post.contains("software") || post.contains("dell") || post.contains("lenovo");
+
+        System.out.println("isIntrestedInCars= " + isIntrestedInCars);
+        System.out.println("isIntrestedInLaptops= " + isIntrestedInLaptops);

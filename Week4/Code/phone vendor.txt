@@ -1,0 +1,14 @@
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("PLEASE ENTER YOUR PHONE NUMBER");
+        String phoneNumber = input.nextLine();
+
+        boolean isValidNumber = phoneNumber.length() == 10;
+        boolean isVendorZain = phoneNumber.substring(0,4).contains("079");
+        boolean isVendorUmnia = phoneNumber.substring(0,4).contains("078");
+        boolean isVendorOrange = phoneNumber.substring(0,4).contains("077");
+
+        System.out.println("IS VALID: " + isValidNumber + " (" + phoneNumber.length() + ")");
+        System.out.println("isVendorZain: " + isVendorZain);
+        System.out.println("isVendorUmnia: " + isVendorUmnia);
+        System.out.println("isVendorOrange: " + isVendorOrange);

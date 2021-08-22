@@ -1,0 +1,7 @@
+        String text = "I am @ Yaman";
+        int indexOfAt = text.indexOf("@");
+        String leftSide = text.substring(0,indexOfAt);
+        String rightSide = text.substring(indexOfAt+1);
+
+        System.out.println("LEFT SIDE: " + leftSide);
+        System.out.println("Right SIDE: " + rightSide);

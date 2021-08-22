@@ -1,0 +1,7 @@
+        Scanner input = new Scanner(System.in);
+        String msg = "Hello, I am a msg test";
+        int age = 5;
+
+        System.out.println("TRYING charAt(): " + "msg".charAt(0));
+        System.out.println("TRYING charAt(): " + "age".charAt(1));
+        System.out.println("TRYING contains(): " + msg.contains("test"));
