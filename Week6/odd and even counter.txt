@@ -1,0 +1,27 @@
+
+//        KEEP READING NUMBERS AND COUNT THE #OF EVEN & #OF ODD
+//        NOTE : SKIP NEGATIVE NUMBERS
+//        USE THE VALUE 0 TO END THE LOOP
+
+        int number = 0;
+        int numberOfOddNumbers = 0;
+        int numberOfEvenNumbers = 0;
+
+        while (true) {
+            number = Integer.parseInt(JOptionPane.showInputDialog("ENTER ANY NUMBER: "));
+            if(number == 0) break;
+            if (number < 0) continue;
+            if (number % 2 == 0) {
+                System.out.println("EVEN");
+                numberOfEvenNumbers++;
+            } else {
+                System.out.println("ODD");
+                numberOfOddNumbers+=1;
+            }
+
+        }
+
+        System.out.println("NUMBER OF ODDS: " + numberOfOddNumbers);
+        System.out.println("NUMBER OF EVENS: " + numberOfEvenNumbers);
+
+    
