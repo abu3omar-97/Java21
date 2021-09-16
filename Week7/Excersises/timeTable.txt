@@ -1,0 +1,10 @@
+       int cell, x ,y;
+        cell = x = y = 1;
+
+    for (x = 1; x<= 10 ; x++) {
+        for (y = 1; y <= 10; y++) {
+            cell = x * y;
+            System.out.print(cell + " ");
+        }
+        System.out.println("");
+    }
