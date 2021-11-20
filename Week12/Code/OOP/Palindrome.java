@@ -2,13 +2,29 @@ package OOP;
 
 public class Palindrome {
 
-    int number;
-
-    public boolean isPalindrome(){
-        return this.number == this.reverseNumber();
+ public static boolean isPalindrome(int num){
+        return num == numberReversed(num);
     }
 
-    public int reverseNumber(){
-        return 111;
+    public static int numberReversed(int num){
+        int reversed = 0;
+        while(num != 0){
+            int lastDigit = (num % 10);
+            num /= 10;
+            reversed *= 10 +  lastDigit;
+        }
+
+        return reversed;
+    }
+
+    public static void main(String[] args) {
+        // 1221 -> TRUE
+        // 123321 -> TRUE
+        // 12321 -> TRUE
+        // 343232 -> FALSE
+
+        int num = 123;
+        System.out.println(isPalindrome(num));
+
     }
 }
