@@ -1,0 +1,50 @@
+	// 1. What variables make up a bank account?
+	 // every bank account has money
+	 // every bank account has a account holder (name, address, phone)
+	 // every bank account has a password
+
+	// 2. What methods can you call on a bank account instance?
+	/**
+	 * Constructor: Bank Account
+	 * -------------------------
+	 * When you make a new bank account, start with initial values.
+	 */
+
+	// 3. What methods can you call on a bank account instance?
+	/**
+	 * Method: Withdraw
+	 * -------------------------
+	 * Tries to take money out of the account. Makes sure that there is
+	 * sufficient funds. Returns whether or not the withdrawal was successful
+	 */
+
+	/**
+	 * Method: Deposit
+	 * -------------------------
+	 * Puts money into the bank account!
+	 */
+	/**
+	 * Method: Check Balance
+	 * -------------------------
+	 * returns the amount of money in this account.
+	 */
+	/**
+	 * Method: Transfer
+	 * -------------------------
+	 * transfers money from one account to another.
+	 */
+	/**
+	 * Method: To String
+	 * -------------------------
+	 * Returns a string that contains the bankAccounts info (except password)
+	 */
+	/**
+	 * Method: Check Password
+	 * -------------------------
+	 * Returns true if the given password matches the actual password.
+	 */
+	/**
+	 * Method: Set Password
+	 * -------------------------
+	 * Sets the bank accounts password
+	 */
